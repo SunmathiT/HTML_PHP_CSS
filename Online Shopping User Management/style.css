@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 30px;
+
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2,
+        #f093fb
+    );
+
+    color: white;
+}
+
+.container {
+
+    width: 90%;
+
+    max-width: 650px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    border-radius: 25px;
+
+    background: rgba(255,255,255,0.18);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.3);
+}
+
+h1 {
+
+    font-size: 36px;
+
+    margin-bottom: 15px;
+}
+
+.container > p {
+
+    font-size: 18px;
+
+    margin-bottom: 25px;
+}
+
+form {
+
+    padding: 25px;
+}
+
+input,
+select {
+
+    width: 85%;
+
+    padding: 14px;
+
+    margin: 10px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    text-align: center;
+
+    outline: none;
+}
+
+button,
+.button {
+
+    display: inline-block;
+
+    padding: 14px 28px;
+
+    margin-top: 15px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: linear-gradient(
+        45deg,
+        #00c6ff,
+        #0072ff
+    );
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+
+    transform: scale(1.05);
+}
+
+.card {
+
+    margin: 20px 0;
+
+    padding: 25px;
+
+    border-radius: 20px;
+
+    background: linear-gradient(
+        135deg,
+        #11998e,
+        #38ef7d
+    );
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+
+    margin-bottom: 15px;
+}
+
+.card p {
+
+    padding: 8px;
+
+    margin: 5px;
+
+    background: rgba(255,255,255,0.15);
+
+    border-radius: 8px;
+}
+
+@media(max-width:600px) {
+
+    body {
+        padding: 20px;
+    }
+
+    input,
+    select {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}

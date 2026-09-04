@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    padding: 40px;
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2,
+        #f093fb
+    );
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px #333;
+}
+
+.container > p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+form {
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.18);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+label {
+    display: block;
+    margin: 15px 0 8px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 85%;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+}
+
+button,
+.button {
+    display: inline-block;
+    padding: 14px 28px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(
+        45deg,
+        #00c6ff,
+        #0072ff
+    );
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+    transform: scale(1.05);
+}
+
+.success {
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: 18px;
+    background: linear-gradient(
+        135deg,
+        #11998e,
+        #38ef7d
+    );
+    font-size: 18px;
+}
+
+.records {
+    margin-top: 20px;
+}
+
+.card {
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: left;
+    background: linear-gradient(
+        135deg,
+        #00c6ff,
+        #0072ff
+    );
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card p {
+    padding: 8px;
+    margin: 5px 0;
+    background: rgba(255,255,255,0.15);
+    border-radius: 8px;
+}
+
+@media(max-width:600px) {
+
+    body {
+        padding: 20px;
+    }
+
+    input,
+    select {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
