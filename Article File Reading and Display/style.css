@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+
+    min-height: 100vh;
+
+    padding: 40px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #667eea,
+            #764ba2,
+            #f093fb
+        );
+
+    color: white;
+}
+
+
+.container {
+
+    width: 90%;
+
+    max-width: 850px;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+
+h1 {
+
+    font-size: 38px;
+
+    margin-bottom: 10px;
+
+    text-shadow:
+        2px 2px 5px #333;
+}
+
+
+.container > p {
+
+    font-size: 18px;
+
+    margin-bottom: 30px;
+}
+
+
+/* Article */
+
+.article-box {
+
+    padding: 30px;
+
+    margin: 25px 0;
+
+    border-radius: 20px;
+
+    background:
+        rgba(255,255,255,0.18);
+
+    box-shadow:
+        0 8px 25px rgba(0,0,0,0.3);
+
+    text-align: left;
+}
+
+
+.article-box h2 {
+
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+
+.content {
+
+    background: white;
+
+    color: #333;
+
+    padding: 25px;
+
+    border-radius: 12px;
+
+    line-height: 1.8;
+
+    font-size: 17px;
+}
+
+
+/* Line Count */
+
+.line-box {
+
+    padding: 25px;
+
+    margin: 25px 0;
+
+    border-radius: 20px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #11998e,
+            #38ef7d
+        );
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.3);
+}
+
+
+.line-box h3 {
+
+    font-size: 28px;
+
+    margin-top: 12px;
+}
+
+
+/* Button */
+
+.button {
+
+    display: inline-block;
+
+    padding: 14px 30px;
+
+    margin-top: 15px;
+
+    background:
+        linear-gradient(
+            45deg,
+            #ff416c,
+            #ff4b2b
+        );
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 12px;
+
+    font-weight: bold;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.3);
+}
+
+
+.button:hover {
+
+    transform: scale(1.05);
+}
+
+
+@media(max-width:600px) {
+
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .content {
+        font-size: 15px;
+    }
+
+}

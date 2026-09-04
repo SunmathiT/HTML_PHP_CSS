@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+
+    background: linear-gradient(
+        135deg,
+        #0f2027,
+        #203a43,
+        #2c5364
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+    color: white;
+}
+
+/* Main Container */
+
+.container {
+    width: 100%;
+    max-width: 650px;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+    backdrop-filter: blur(10px);
+
+    text-align: center;
+}
+
+/* Heading */
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.subtitle {
+    margin-bottom: 25px;
+    color: #d8f3ff;
+}
+
+/* Form */
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+
+    margin-top: 15px;
+    margin-bottom: 7px;
+
+    font-weight: bold;
+}
+
+/* Input and Select */
+
+input,
+select {
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+    border-radius: 8px;
+
+    outline: none;
+
+    font-size: 15px;
+}
+
+/* Focus */
+
+input:focus,
+select:focus {
+    box-shadow: 0 0 8px #00eaff;
+}
+
+/* Button */
+
+button {
+    width: 100%;
+
+    margin-top: 25px;
+
+    padding: 14px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #00bcd4;
+
+    color: white;
+
+    font-size: 17px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0097a7;
+}
+
+/* Confirmation */
+
+.confirmation {
+    width: 100%;
+    max-width: 700px;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+    backdrop-filter: blur(10px);
+
+    text-align: center;
+}
+
+/* Success */
+
+.success {
+    background: #28a745;
+
+    padding: 14px;
+
+    border-radius: 10px;
+
+    margin: 20px 0;
+
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+/* Details */
+
+.details {
+    background: rgba(255, 255, 255, 0.10);
+
+    padding: 20px;
+
+    border-radius: 12px;
+
+    text-align: left;
+
+    margin-top: 20px;
+}
+
+.details p {
+    padding: 12px 0;
+
+    border-bottom:
+        1px solid rgba(255, 255, 255, 0.2);
+}
+
+.details p:last-child {
+    border-bottom: none;
+}
+
+/* Message */
+
+.message {
+    margin: 25px 0;
+
+    line-height: 1.8;
+
+    color: #dff9ff;
+}
+
+/* Back Button */
+
+.back-button {
+    display: inline-block;
+
+    padding: 12px 25px;
+
+    background: #00bcd4;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    font-weight: bold;
+}
+
+.back-button:hover {
+    background: #0097a7;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .container,
+    .confirmation {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
